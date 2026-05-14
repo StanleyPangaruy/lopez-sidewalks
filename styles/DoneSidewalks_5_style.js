@@ -21,7 +21,7 @@ var style_DoneSidewalks_5 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(0,122,255,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 5}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,122,255,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 2.5}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
