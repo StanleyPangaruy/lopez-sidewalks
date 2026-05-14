@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_PrioritySidewalks_2 = function(feature, resolution){
+var style_FutureSidewalks_3 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -21,7 +21,7 @@ var style_PrioritySidewalks_2 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(255,59,48,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 0.988}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,204,0,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 0.988}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
