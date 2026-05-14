@@ -112,7 +112,7 @@ var lyr_DoneSidewalks_8 = new ol.layer.Vector({
                 title: '<img src="styles/legend/DoneSidewalks_8.png" /> Done Sidewalks'
             });
 
-lyr_GoogleTerrain_0.setVisible(true);lyr_GoogleHybrid_1.setVisible(true);lyr_GoogleTraffic_2.setVisible(true);lyr_GoogleSatellite_3.setVisible(true);lyr_GoogleLabels_4.setVisible(true);lyr_GoogleRoad_5.setVisible(true);lyr_FutureSidewalks_6.setVisible(true);lyr_PrioritySidewalks_7.setVisible(true);lyr_DoneSidewalks_8.setVisible(true);
+lyr_GoogleTerrain_0.setVisible(false);lyr_GoogleHybrid_1.setVisible(false);lyr_GoogleTraffic_2.setVisible(false);lyr_GoogleSatellite_3.setVisible(false);lyr_GoogleLabels_4.setVisible(false);lyr_GoogleRoad_5.setVisible(true);lyr_FutureSidewalks_6.setVisible(true);lyr_PrioritySidewalks_7.setVisible(true);lyr_DoneSidewalks_8.setVisible(true);
 var layersList = [lyr_GoogleTerrain_0,lyr_GoogleHybrid_1,lyr_GoogleTraffic_2,lyr_GoogleSatellite_3,lyr_GoogleLabels_4,lyr_GoogleRoad_5,lyr_FutureSidewalks_6,lyr_PrioritySidewalks_7,lyr_DoneSidewalks_8];
 lyr_FutureSidewalks_6.set('fieldAliases', {});
 lyr_PrioritySidewalks_7.set('fieldAliases', {});
